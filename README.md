@@ -40,13 +40,23 @@ Demonstrate your understanding of this Sprint's concepts by answering the follow
 
 - [ ] Mention two parts of Express that you learned about this week.
 
+  I've learned a lot about Express Router and Express Middleware this week. Express Router is great for simplifying the architecture of your servers by keeping things organized and clean. Express Middleware is great for D.R.Y. code.
+
 - [ ] Describe Middleware?
+
+      Middleware functions are functions that have access to the request object, the response object, and the next function in the application's request-response cycle. Most code we write, including route handlers, is middleware.
 
 - [ ] Describe a Resource?
 
+  Resources are the things an application cares about. They can be users, products, orders, clients, or returns.
+
 - [ ] What can the API return to help clients know if a request was successful?
 
+      A response status of 200 OK communicates to the client that their request was successful.
+
 - [ ] How can we partition our application into sub-applications?
+        
+       You can use Express Router to partition your application into a sub-application.
 
 ## Minimum Viable Product
 
